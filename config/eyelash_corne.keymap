@@ -28,6 +28,11 @@
 
 &soft_off { hold-time-ms = <2000>; };
 
+&mt {
+    flavor = "tap-preferred";
+    quick-tap-ms = <20>;
+};
+
 / {
     behaviors {
         td0: td0 {
