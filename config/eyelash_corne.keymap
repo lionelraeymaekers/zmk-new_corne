@@ -130,7 +130,7 @@
 
         Setup {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &rgb_ug RGB_TOG  &rgb_ug RGB_SPI                   &rgb_ug RGB_HUI                 &rgb_ug RGB_SAI                 &rgb_ug RGB_BRI                 &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &rgb_ug RGB_TOG  &rgb_ug RGB_SPI                   &rgb_ug RGB_HUI                 &rgb_ug RGB_SAI                 &rgb_ug RGB_BRI                 &studio_unlock
 &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &rgb_ug RGB_EFF  &rgb_ug RGB_SPD                   &rgb_ug RGB_HUD                 &rgb_ug RGB_SAD                 &rgb_ug RGB_BRD                 &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &rgb_ug RGB_EFR  &rgb_ug RGB_COLOR_HSB(188,68,37)  &rgb_ug RGB_COLOR_HSB(68,4,52)  &rgb_ug RGB_COLOR_HSB(0,32,93)  &rgb_ug RGB_COLOR_HSB(0,75,35)  &trans
                         &trans  &trans  &trans                                    &trans           &trans                            &trans
