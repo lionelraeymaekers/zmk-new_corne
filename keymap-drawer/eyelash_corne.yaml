@@ -51,45 +51,45 @@ layers:
   - {t: '$$mdi:backspace-reverse-outline$$', h: Fn}
   Symbol:
   - {t: '$$mdi:transfer$$', type: trans}
-  - Alt+#
+  - \
   - '1'
   - {t: '3', s: '#'}
   - {t: Alt+5, s: Alt+%}
   - +
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '|'
+  - Sft+Alt+L
   - {t: Alt+-, s: Alt+_}
   - {t: '8', s: '*'}
   - Sft+M
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Sft+}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '{'
   - {t: '=', s: +}
   - '4'
   - {t: '5', s: '%'}
-  - {t: \, s: '|'}
+  - Sft+Alt+.
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: /, s: '?'}
+  - Sft+.
   - {t: '-', s: _}
-  - '*'
-  - '"'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Sft+}
+  - Sft+.
+  - '}'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: Sft+=, s: Sft++}
   - '~'
   - {t: Sft+Alt+5, s: Sft+Alt+%}
-  - <
+  - {t: '`', s: '~'}
   - $$mdi:volume-off$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '>'
+  - {t: Sft+`, s: Sft+~}
   - {t: Sft+Alt+-, s: Sft+Alt+_}
-  - Sft+Alt+#
-  - AltGr+N
+  - {t: Sft+Alt+\, s: Sft+Alt+|}
+  - {t: /, s: '?'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
