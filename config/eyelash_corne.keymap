@@ -86,10 +86,10 @@
         Symbol {
             display-name = "Symbol";
             bindings = <
-&trans  &kp LA(POUND)   &kp NUMBER_1   &kp N3        &kp LA(N5)      &kp PLUS                            &none         &kp PIPE          &kp LA(MINUS)      &kp N8             &kp LS(M)          &none  &trans
-&trans  &kp LEFT_BRACE  &kp EQUAL      &kp NUMBER_4  &kp N5          &kp BACKSLASH                &none  &none  &none  &kp SLASH         &kp MINUS          &kp ASTERISK       &kp DOUBLE_QUOTES  &none  &trans
-&trans  &none           &kp LS(EQUAL)  &kp TILDE     &kp LS(LA(N5))  &kp LESS_THAN  &kp C_MUTE           &none         &kp GREATER_THAN  &kp LS(LA(MINUS))  &kp LS(LA(POUND))  &kp RA(N)          &none  &trans
-                                       &trans        &trans          &trans                                            &kp INS           &kp DEL            &trans
+&trans  &kp NON_US_BACKSLASH  &kp NUMBER_1   &kp N3        &kp LA(N5)      &kp PLUS                                 &none         &kp LS(LA(L))   &kp LA(MINUS)      &kp N8                 &kp LS(M)     &kp LS(RIGHT_BRACE)  &trans
+&trans  &kp LEFT_BRACE        &kp EQUAL      &kp NUMBER_4  &kp N5          &kp LS(LA(PERIOD))                &none  &none  &none  &kp LS(PERIOD)  &kp MINUS          &kp LS(RIGHT_BRACE)    &kp LS(APOS)  &kp RIGHT_BRACE      &trans
+&trans  &none                 &kp LS(EQUAL)  &kp TILDE     &kp LS(LA(N5))  &kp GRAVE           &kp C_MUTE           &none         &kp LS(GRAVE)   &kp LS(LA(MINUS))  &kp LS(LA(BACKSLASH))  &kp SLASH     &none                &trans
+                                             &trans        &trans          &trans                                                 &kp INS         &kp DEL            &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
