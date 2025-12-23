@@ -59,12 +59,28 @@
         tap-ms = <100>;
     };
 
+    // French accent combos for AZERTY compatibility on macOS
     combos {
         compatible = "zmk,combos";
 
-        softoff {
-            bindings = <&soft_off>;
-            key-positions = <1 15 29>;
+        ecute {              // é - E with acute accent
+            bindings = <&kp NUMBER_2>;
+            key-positions = <3 2>;
+        };
+
+        egrave {             // è - E with grave accent
+            bindings = <&kp NUMBER_7>;
+            key-positions = <3 4>;
+        };
+
+        ugrave {             // ù - U with grave accent
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <7 8>;
+        };
+
+        agrave {             // à - A with grave accent
+            bindings = <&kp NUMBER_0>;
+            key-positions = <1 2>;
         };
     };
 
