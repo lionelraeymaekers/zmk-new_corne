@@ -64,7 +64,7 @@ layers:
   - Sft+}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '{'
+  - {t: '[', s: '{'}
   - {t: '=', s: +}
   - '4'
   - {t: '5', s: '%'}
@@ -72,7 +72,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Sft+.
+  - KP COMMA
   - {t: '-', s: _}
   - {t: Sft+/, s: 'Sft+?'}
   - Sft+.
