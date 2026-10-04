@@ -175,10 +175,22 @@
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans          &rgb_ug RGB_TOG  &rgb_ug RGB_SPI                   &rgb_ug RGB_HUI                 &rgb_ug RGB_SAI                 &rgb_ug RGB_BRI                 &studio_unlock
 &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &rgb_ug RGB_EFF  &rgb_ug RGB_SPD                   &rgb_ug RGB_HUD                 &rgb_ug RGB_SAD                 &rgb_ug RGB_BRD                 &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &rgb_ug RGB_EFR  &rgb_ug RGB_COLOR_HSB(188,68,37)  &rgb_ug RGB_COLOR_HSB(68,4,52)  &rgb_ug RGB_COLOR_HSB(0,32,93)  &rgb_ug RGB_COLOR_HSB(0,75,35)  &trans
-                        &trans  &trans  &trans                                    &trans           &trans                            &trans
+                        &tog 6  &trans  &trans                                    &trans           &trans                            &trans
             >;
 
             label = "Setup";
+        };
+
+        Gaming {
+            label = "Gaming";
+            bindings = <
+&kp ESCAPE      &kp Q           &kp W               &kp E           &kp R             &kp T                      &none         &kp Y      &kp U              &kp I            &kp O                &kp P               &kp BSPC
+&kp TAB         &kp A           &kp S               &kp D           &kp F             &kp G               &none  &none  &none  &kp H      &kp J  &kp K  &kp L  &kp SEMI  &kp SPACE
+&kp LEFT_SHIFT  &kp Z           &kp X               &kp C           &kp V             &kp B      &none           &none         &kp N      &kp M              &kp COMMA        &kp DOT              &kp FSLH            &tog 6
+                                                    &kp LEFT_CONTROL          &kp LEFT_ALT         &kp SPACE                                &kp ENTER  &kp BSPC    &kp DELETE
+            >;
+
+            sensor-bindings = <&scroll_encoder>;
         };
     };
 };
